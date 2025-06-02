@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opala Brasileira - Tesouro de Pedro II</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <h1>Opala Brasileira</h1>
+                <span class="nav__tagline">Tesouro de Pedro II</span>
+            </div>
+            <ul class="nav__menu" id="navMenu">
+                <li><a href="#inicio" class="nav__link active">Início</a></li>
+                <li><a href="#sobre" class="nav__link">Sobre a Opala</a></li>
+                <li><a href="#producao" class="nav__link">Produção</a></li>
+                <li><a href="#mercado" class="nav__link">Mercado</a></li>
+                <li><a href="#galeria" class="nav__link">Galeria</a></li>
+                <li><a href="#sustentabilidade" class="nav__link">Sustentabilidade</a></li>
+            </ul>
+            <button class="nav__toggle" id="navToggle">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero__content container">
+            <div class="hero__text">
+                <h2 class="hero__title">Descubra a Beleza das Opalas Brasileiras</h2>
+                <p class="hero__description">
+                    Pedro II, no Piauí, é o coração da produção brasileira de opalas, onde tradições artesanais 
+                    encontram a natureza para criar as gemas mais extraordinárias do país.
+                </p>
+                <button class="btn btn--primary hero__cta">Explore o Tesouro</button>
+            </div>
+            <div class="hero__image">
+                <img src="https://pplx-res.cloudinary.com/image/upload/v1748897412/pplx_project_search_images/8d08ccddab4cf6973a21415a4b5254816e17d9a6.jpg" alt="Joias artesanais de opala">
+            </div>
+        </div>
+    </section>
+
+    <!-- Estatísticas -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats__grid">
+                <div class="stat-card">
+                    <div class="stat-card__icon">🏞️</div>
+                    <h3 class="stat-card__number">Pedro II</h3>
+                    <p class="stat-card__label">Principal Região Produtora</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-card__icon">⛏️</div>
+                    <h3 class="stat-card__number">Artesanal</h3>
+                    <p class="stat-card__label">Tipo de Mineração</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-card__icon">💎</div>
+                    <h3 class="stat-card__number">3</h3>
+                    <p class="stat-card__label">Principais Variedades</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-card__icon">🌍</div>
+                    <h3 class="stat-card__number">8%</h3>
+                    <p class="stat-card__label">Participação Mundial</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre a Opala -->
+    <section id="sobre" class="section sobre">
+        <div class="container">
+            <h2 class="section__title">Sobre a Opala Brasileira</h2>
+            <div class="sobre__content">
+                <div class="sobre__info">
+                    <div class="collapse-section">
+                        <button class="collapse__trigger">
+                            <h3>Características Geológicas</h3>
+                            <span class="collapse__icon">+</span>
+                        </button>
+                        <div class="collapse__content">
+                            <p>A opala é um mineral amorfo de sílica hidratada formado por processos geológicos específicos. 
+                            O jogo de cores característico resulta da difração da luz através de esferas de sílica microscópicas.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="collapse-section">
+                        <button class="collapse__trigger">
+                            <h3>Variedades Brasileiras</h3>
+                            <span class="collapse__icon">+</span>
+                        </button>
+                        <div class="collapse__content">
+                            <ul class="variedades-list">
+                                <li><strong>Opala Branca:</strong> Base leitosa com jogos de cores em tons de azul e verde</li>
+                                <li><strong>Opala Cristal:</strong> Maior transparência e claridade</li>
+                                <li><strong>Opala Nobre:</strong> Apresenta opalescência distinta e maior valor comercial</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre__image">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1748897844/pplx_project_search_images/5ccdfa715e7a93596f80bcf709c9c8f89f9845e5.jpg" alt="Coleção de anéis de opala">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Produção -->
+    <section id="producao" class="section producao">
+        <div class="container">
+            <h2 class="section__title">Produção em Pedro II</h2>
+            <div class="producao__content">
+                <div class="producao__info">
+                    <div class="pedro-ii-card card">
+                        <div class="card__body">
+                            <h3>Pedro II - Coração da Opala</h3>
+                            <ul>
+                                <li><strong>Localização:</strong> Norte do Piauí</li>
+                                <li><strong>População:</strong> Aproximadamente 37.000 habitantes</li>
+                                <li><strong>Tradição:</strong> Mineração artesanal transmitida através de gerações</li>
+                                <li><strong>APL:</strong> Arranjo Produtivo Local integrado</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="cadeia-produtiva">
+                        <h3>Cadeia Produtiva</h3>
+                        <div class="processo-steps">
+                            <div class="step">
+                                <div class="step__icon">⛏️</div>
+                                <h4>Extração</h4>
+                                <p>Métodos artesanais tradicionais</p>
+                            </div>
+                            <div class="step">
+                                <div class="step__icon">✂️</div>
+                                <h4>Beneficiamento</h4>
+                                <p>Lapidação manual especializada</p>
+                            </div>
+                            <div class="step">
+                                <div class="step__icon">🛍️</div>
+                                <h4>Comercialização</h4>
+                                <p>Feiras, lojas e e-commerce</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="producao__image">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1748897843/pplx_project_search_images/d80eb3d6f246cc23df74ff183394c6a17c38675e.jpg" alt="Vista aérea de Pedro II">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Mercado -->
+    <section id="mercado" class="section mercado">
+        <div class="container">
+            <h2 class="section__title">Mercado Mundial de Opalas</h2>
+            <div class="mercado__content">
+                <div class="chart-container">
+                    <canvas id="marketChart"></canvas>
+                </div>
+                <div class="mercado__info">
+                    <div class="mercado-stats">
+                        <h3>Posição Brasileira</h3>
+                        <div class="stat-item">
+                            <span class="stat-label">Participação mundial:</span>
+                            <span class="stat-value">8%</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Posição no ranking:</span>
+                            <span class="stat-value">4º lugar</span>
+                        </div>
+                    </div>
+                    
+                    <div class="desafios-oportunidades">
+                        <div class="collapse-section">
+                            <button class="collapse__trigger">
+                                <h3>Desafios</h3>
+                                <span class="collapse__icon">+</span>
+                            </button>
+                            <div class="collapse__content">
+                                <ul>
+                                    <li>Falta de modernização tecnológica</li>
+                                    <li>Informalidade no setor</li>
+                                    <li>Limitações na qualificação profissional</li>
+                                    <li>Desvalorização no mercado</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="collapse-section">
+                            <button class="collapse__trigger">
+                                <h3>Oportunidades</h3>
+                                <span class="collapse__icon">+</span>
+                            </button>
+                            <div class="collapse__content">
+                                <ul>
+                                    <li>Certificação de origem</li>
+                                    <li>Turismo mineral</li>
+                                    <li>Modernização dos processos</li>
+                                    <li>Capacitação técnica</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria" class="section galeria">
+        <div class="container">
+            <h2 class="section__title">Galeria</h2>
+            <div class="galeria__grid" id="galeriaGrid">
+                <!-- Imagens serão carregadas dinamicamente via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal da Galeria -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox__content">
+            <span class="lightbox__close">&times;</span>
+            <img id="lightboxImage" class="lightbox__image" src="" alt="">
+            <div class="lightbox__caption" id="lightboxCaption"></div>
+        </div>
+    </div>
+
+    <!-- Seção Sustentabilidade -->
+    <section id="sustentabilidade" class="section sustentabilidade">
+        <div class="container">
+            <h2 class="section__title">Sustentabilidade</h2>
+            <div class="sustentabilidade__content">
+                <div class="sustainability-cards">
+                    <div class="card sustainability-card">
+                        <div class="card__body">
+                            <h3>🌱 Desafios Ambientais</h3>
+                            <ul>
+                                <li>Modificação da paisagem</li>
+                                <li>Impactos na fauna e flora</li>
+                                <li>Falta de monitoramento sistemático</li>
+                                <li>Gestão inadequada de resíduos</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="card sustainability-card">
+                        <div class="card__body">
+                            <h3>👥 Aspectos Sociais</h3>
+                            <ul>
+                                <li>Condições precárias de trabalho</li>
+                                <li>Informalidade predominante</li>
+                                <li>Limitações na qualificação profissional</li>
+                                <li>Exposição a riscos ocupacionais</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="card sustainability-card">
+                        <div class="card__body">
+                            <h3>🎯 Iniciativas</h3>
+                            <ul>
+                                <li>Programas de capacitação técnica</li>
+                                <li>Desenvolvimento de certificações</li>
+                                <li>Turismo mineral sustentável</li>
+                                <li>Formalização das atividades</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cta-turismo">
+                    <h3>Turismo Mineral em Pedro II</h3>
+                    <p>Conheça pessoalmente a região produtora e apoie o desenvolvimento sustentável local.</p>
+                    <button class="btn btn--primary">Planeje sua Visita</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3>Opala Brasileira</h3>
+                    <p>Valorizando o patrimônio mineral de Pedro II, Piauí</p>
+                </div>
+                <div class="footer__links">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre a Opala</a></li>
+                        <li><a href="#mercado">Mercado</a></li>
+                        <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Opala Brasileira. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
